@@ -1,0 +1,23 @@
+# Mengabaikan semua folder output hasil kompilasi di setiap studi kasus
+output/
+**/output/
+
+# Mengabaikan semua file .class di mana pun letaknya
+*.class
+
+# Mengabaikan folder bin atau build (standar Java)
+bin/
+build/
+out/
+
+# Mengabaikan folder/file konfigurasi dari Text Editor / IDE (Opsional jika Anda pakai)
+.vscode/
+.idea/
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# Mengabaikan file sampah sistem operasi (Windows / Mac)
+Thumbs.db
+.DS_Store
